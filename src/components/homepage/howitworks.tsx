@@ -4,7 +4,7 @@ export default function Works() {
       <div className="container">
         <div className="flex sm:items-center sm:flex-row flex-col justify-between">
           <div>
-            <h1 className="text-[#0C0112] text-[40px] leading-[44px] font-[700] mb-6">
+            <h1 className="text-[#0C0112] text-[40px] leading-[44px] font-[700]">
               How Wamirii Works
             </h1>
           </div>
@@ -17,7 +17,7 @@ export default function Works() {
             </button>
           </div>
         </div>
-        <div className="sm:w-1/3 w-full">
+        <div className="sm:w-1/3 w-full mt-4">
           <p className="text-[#353E34] text-[16px] leading-[25px] font-[400]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
