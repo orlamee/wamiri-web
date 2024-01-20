@@ -24,3 +24,7 @@ body {
   height: 100%;
   margin: 0;
 }
+
+.bg-pattern {
+  background-image: url("../assets/pattern.svg");
+}

@@ -1,3 +1,6 @@
+import Image from "next/image";
+import man from "../../assets/man.svg";
+
 export default function Works() {
   return (
     <section className="bg-[#fff] py-[100px]">
@@ -24,7 +27,37 @@ export default function Works() {
             enim ad minim veniam, quis nostrud exercitation ullamco laboris .
           </p>
         </div>
+        <div className="grid sm:grid-cols-2 grid-cols-1 mt-6">
+          <div className="bg-pattern p-9 bg-cover bg-no-repeat">
+            <ol className="space-y-6 text-white list-decimal list-inside text-[20px] leading-[22px] font-[700]">
+              <li><span className="">Create An Account</span>
+                <p className="ps-5 pt-4 text-[14px] leading-[22px] font-[400]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris .
+                </p>
+              </li>
+              <li><span className="">Complete Missing Person Form</span>
+                <p className="ps-5 pt-4 text-[14px] leading-[22px] font-[400]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris .
+                </p>
+              </li>
+              <li><span className="">Submit Information</span>
+                <p className="ps-5 pt-4 text-[14px] leading-[22px] font-[400]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris .
+                </p>
+              </li>
+              <li><span className="">Follow Up and Track Information</span>
+                <p className="ps-5 pt-4 text-[14px] leading-[22px] font-[400]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris .
+                </p>
+              </li>
+            </ol>
+          </div>
+          <div>
+            <Image src={man} alt="wamirii" className="w-full" />
+          </div>
+        </div>
       </div>
+      
     </section>
   );
 }
