@@ -2,6 +2,7 @@ import Image from "next/image";
 import left from "../../assets/left.svg";
 import right from "../../assets/right.svg";
 import person from "../../assets/person.png";
+import lost from "../../assets/lost.png";
 import Link from "next/link";
 
 export default function RecentFound() {
@@ -65,7 +66,7 @@ export default function RecentFound() {
             <Image src={person} alt="recent-found" className="w-full" />
             <div className="mt-4 mb-6">
               <h3 className="text-[#0C0112] text-[18px] leading-[19px] font-[700]">
-                Azeezat Abdullahi
+                Onyebuchi Harrison
               </h3>
               <div className="flex items-center gap-x-2 mt-4">
                 <span className="bg-[#F6E3FF] text-[12px] font-[500] text-[#7F03BB] px-4 py-0.5 rounded-[30px]">
@@ -99,10 +100,10 @@ export default function RecentFound() {
             </div>
           </div>
           <div className="bg-white rounded-[9px] p-4">
-            <Image src={person} alt="recent-found" className="w-full" />
+            <Image src={lost} alt="recent-found" className="w-full" />
             <div className="mt-4 mb-6">
               <h3 className="text-[#0C0112] text-[18px] leading-[19px] font-[700]">
-                Azeezat Abdullahi
+                Jesuyanmi Arise
               </h3>
               <div className="flex items-center gap-x-2 mt-4">
                 <span className="bg-[#F6E3FF] text-[12px] font-[500] text-[#7F03BB] px-4 py-0.5 rounded-[30px]">
