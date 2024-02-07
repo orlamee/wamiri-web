@@ -111,7 +111,7 @@ export default function Navbar() {
               </button>
             </div>
             <div className="mt-16">
-              <div className="w-6/12 mx-auto text-center">
+              <div className="w-8/12 mx-auto text-center">
                 <ul className="space-y-6 text-center mb-20">
                   <li>
                     <p className="outline-none text-[14px] text-white leading-[17px] font-[500] ">
